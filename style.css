@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #141213;
+    color: white;
+    font-family: Poppins, sans-serif;
+}
+
+*after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+
+.codeAreaAll {
+    margin-top: 21.5px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.codeAreaBox {
+    height: 219px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    border: none;
+    color: black;
+    background-color: white;
+    height: 640px;
+    width: 715px;
+    margin-top: px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.topNav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    font-family: Cubano, sans-serif;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+textarea {
+    background: #1f1f1f;
+    position: relative;
+    width: 746px;
+    height: 100%;
+    border: none;
+    color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+textarea:focus {
+    outline: none;
+    border: 0.5px solid #a755f7;
+}
+
+.right {
+    margin-top: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.left {
+    margin-left: 500px;
+    gap: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.settingLogo:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: 1s ease;
+    color: #a755f7;
+}
+
+.copyCode:hover {
+    cursor: pointer;
+    color: #a755f7;
+    transition: 0.5s ease;
+}
+
+.topNavOutput {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 6px;
+    background-color: black;
+    margin-top: 29px;
+    font-family: Cubano, sans-serif;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#copyText {
+    visibility: hidden;
+    color: #a755f7;
+}
